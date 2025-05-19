@@ -3,7 +3,7 @@ if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
 -- Blox Fruits
 getgenv().Team = "Marines"
 (game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", getgenv().Team)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/BloxFruits.Lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNotReal/Script/refs/heads/main/BloxFruits.Lua"))()
 
 elseif placeId == 116495829188952 or placeId == 70876832253163 then
 -- Dead Rails
