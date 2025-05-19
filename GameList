@@ -19,7 +19,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/hea
 
 elseif placeId == 126884695634066 then
 -- Grow A Garden
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/GrowAGarden.Lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNotReal/Script/refs/heads/main/GrowAGarden.Lua"))()
 
 elseif placeId == 6884266247 or placeId == 72829404259339 then
 -- Anime Rangers X
