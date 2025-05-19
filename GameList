@@ -1,0 +1,27 @@
+local placeId = game. PlaceId
+if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
+-- Blox Fruits
+getgenv().Team = "Marines"
+(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetTeam", getgenv().Team)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/BloxFruits.Lua"))()
+
+elseif placeId == 116495829188952 or placeId == 70876832253163 then
+-- Dead Rails
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/DeadRails.Lua"))()
+
+elseif placeId == 94845773826960 or placeId == 81734311524009 then
+-- DungeonHeroes.Lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/DungeonHeroes.Lua"))()
+
+elseif placeId == 87039211657390 then
+-- AriseCrossover
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/AriseCrossover.Lua"))()
+
+elseif placeId == 126884695634066 then
+-- Grow A Garden
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/GrowAGarden.Lua"))()
+
+elseif placeId == 6884266247 or placeId == 72829404259339 then
+-- Anime Rangers X
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AmasNot/Game/refs/heads/main/AnimeRangersX.Lua"))()
+end
